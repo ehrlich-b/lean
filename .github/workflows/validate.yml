@@ -1,0 +1,71 @@
+name: Validate mathematics
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 8 * * 1'
+permissions:
+  contents: read
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  publication:
+    name: publication-boundary
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - run: python3 -m unittest discover -s tests
+      - run: python3 scripts/check_public.py
+  mathematics:
+    name: lean-validation
+    needs: publication
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    env:
+      LEAN_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: leanprover/lean-action@50fcf42d2e460296f1a34b402e990d1b24f8b596
+        with:
+          auto-config: 'false'
+          build: 'false'
+          test: 'false'
+          lint: 'false'
+          use-mathlib-cache: 'false'
+          use-github-cache: 'false'
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: .lake/packages
+          key: deps-${{ runner.os }}-${{ hashFiles('lean-toolchain', 'lake-manifest.json') }}
+      - name: Build every exported module from project source
+        run: |
+          mkdir -p ci-evidence
+          set -o pipefail
+          lake build LeanFactory 2>&1 | tee ci-evidence/build.log
+      - name: Reject disallowed transitive axioms
+        run: |
+          set -o pipefail
+          lake env lean --run scripts/AuditAxioms.lean 2>&1 | tee ci-evidence/axioms.log
+      - name: Replay imported environment in a fresh Lean kernel
+        run: |
+          set -o pipefail
+          lake env leanchecker --fresh LeanFactory 2>&1 | tee ci-evidence/replay.log
+      - name: Bind evidence to checked source
+        if: always()
+        run: |
+          mkdir -p ci-evidence
+          git rev-parse HEAD > ci-evidence/commit.txt
+          cp lean-toolchain lake-manifest.json docs/source-manifest.json ci-evidence/
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: lean-evidence-${{ github.sha }}
+          path: ci-evidence/
+          retention-days: 30

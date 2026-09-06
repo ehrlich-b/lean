@@ -29,4 +29,6 @@ Mathlib references at the pinned revision:
 `IsSimplicial.exists_basis` extracts a basis-construction pattern used in
 Mathlib's simplicial tensor-product development. Many other proofs specialize
 Mathlib's `Submodule.map₂`, span, and map APIs. Dependencies retain their own
-licenses and authorship. No Tau Ceti or Physlib implementation is bundled.
+licenses and authorship. No Tau Ceti or Physlib mathematical implementation is bundled. The CI axiom
+auditor adapts an import-environment pattern from Tau Ceti scripts/Axioms.lean
+and importGraph (Kim Morrison and Paul Lezeau), under Apache-2.0.
