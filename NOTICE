@@ -5,3 +5,6 @@ This project builds on Mathlib, copyright its respective contributors,
 licensed under the Apache License, Version 2.0. In particular, the simplicial
 basis proof follows a construction in Mathlib's cone tensor-product theory.
 See docs/PROVENANCE.md for source areas and AI-generation disclosure.
+
+The CI axiom auditor follows an import-environment pattern from Tau Ceti
+and importGraph (Kim Morrison and Paul Lezeau), licensed under Apache-2.0.

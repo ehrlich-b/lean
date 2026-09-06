@@ -81,3 +81,7 @@ Apache-2.0. See [LICENSE](LICENSE), [NOTICE](NOTICE), and
 [provenance](docs/PROVENANCE.md). The public repository starts from a curated
 snapshot; private machine configuration, account records, agent transcripts,
 and unfinished task files are excluded.
+
+The public [validation workflow](docs/CI.md) builds every exported module,
+audits transitive axioms and performs a fresh kernel replay. Passing these
+checks does not replace mathematical or API review.
