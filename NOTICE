@@ -1,0 +1,7 @@
+Lean mathematics, with AI
+Maintained by Bryan Ehrlich, 2026.
+
+This project builds on Mathlib, copyright its respective contributors,
+licensed under the Apache License, Version 2.0. In particular, the simplicial
+basis proof follows a construction in Mathlib's cone tensor-product theory.
+See docs/PROVENANCE.md for source areas and AI-generation disclosure.

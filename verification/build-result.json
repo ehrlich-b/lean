@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "archive_sha256": "5af1ad84b3f042d9f427888352cad9644025bc8b2eced3fccf8ee56c5bdbf2d2",
+  "build_log_sha256": "1e7dc355c4a1f03619f7b9ecdf7ea01111701b8c251695fe575b51bc11c99570",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "command": "lake build LeanFactory",
+  "dependency_cache": "existing pinned runtime, read-only; project build artifacts fresh",
+  "scope": "combined public library build; not NanoDa replay"
+}
