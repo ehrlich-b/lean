@@ -3,6 +3,10 @@
 Planning horizon: September 7–October 6, 2026. These are review checkpoints,
 not promises of theorem completion.
 
+The [AI-assisted formalization program](AUTOMATED-PROGRAM.md) lists the first 31
+source investigations and the admission, verification, and asynchronous review
+process used to turn a research result into a publication candidate.
+
 | Stage | Target | Evidence of usefulness |
 |---|---|---|
 | Week 1 | Classical ordered composites | Compiling finite orthant and positive-matrix examples that consume the cone API |
