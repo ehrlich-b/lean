@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "LeanFactory/Month/StarDotMulVecEqTrace.lean",
+      "sha256": "35314e51e0368e37ef4b58923bcc0c5476296e1e6acc7bd86dd42e2ea8f44ee9",
+      "candidate_sha256": "3cdd0b0eddd8e514187bb60f67c8fa2fa405346d17afdfb4394127245a054a91",
+      "integration_receipt_sha256": "3145fdce63780e4e2d94630785ab314e3b6fdfbfd17e25b4aaff40c89272b7f4"
+    }
+  ],
+  "scope": "private integration evidence binding; public CI must independently pass"
+}
