@@ -31,3 +31,4 @@ import LeanFactory.Overnight.MinEqBotIff
 import LeanFactory.Overnight.MinBotRight
 import LeanFactory.Overnight.MinIsupIsup
 import LeanFactory.Overnight.MaxRidBidual
+import LeanFactory.Month.StarDotMulVecEqTrace

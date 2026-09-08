@@ -1,4 +1,5 @@
 {
+  "LeanFactory.lean": "9331e986f50d4ee851d4a0c445d0a9a141b7c6ccc2bce844732c586256ea97cf",
   "LeanFactory/Batch/MaxEquiv.lean": "01f71876228b28003b34a92cdbf47c4d7c72b925d8651cc565cb084ca38d740b",
   "LeanFactory/Batch/MinBot.lean": "63074ffc17208471b554f8f272f5884eca3682900b78f94f91f1c2356e890d58",
   "LeanFactory/Batch/MinHull.lean": "4fd03de3c37256ebb499644244db21b52d2f74c833d7f0b8bc50fff2c80e7896",
@@ -9,6 +10,7 @@
   "LeanFactory/Batch/SimplicialBasis.lean": "599cad3737dc23a6c0fbe9a6f9ebe565c5204a6de500fe060975997cb9787616",
   "LeanFactory/Batch/SimplicialMap.lean": "4445e1c5790f5ee566a75e2e19ca24f46b920502ff1ac984fa6fd5522dac3446",
   "LeanFactory/ConeTensorMap.lean": "5d26d8c7ee12db214ff39d59b1cc98e1293b3ca9864b188d0248b9843d8e7670",
+  "LeanFactory/Month/StarDotMulVecEqTrace.lean": "35314e51e0368e37ef4b58923bcc0c5476296e1e6acc7bd86dd42e2ea8f44ee9",
   "LeanFactory/Overnight/DualTopEval.lean": "469a2bd2622e721ae7dbefdfedcf8c723a2beaf89a2a1755b606a9b45554e299",
   "LeanFactory/Overnight/HullSingletonSimplicial.lean": "2bdfa27207c833ba8b74ed4a542d1cde23f6fcf4b3e39afbed91f62f89a05e47",
   "LeanFactory/Overnight/MaxRidBidual.lean": "2b3ddd226ad812d21b374864ee207c075e5f3881825864647775ddcb11850e29",
@@ -32,8 +34,7 @@
   "LeanFactory/Sprint/MinRid.lean": "d1281b27660e046e25938b384cce6b3658da3e7ddcadeeb13010465a270771ea",
   "LeanFactory/Sprint/MinSupRight.lean": "5bc56395af219020c9e8a0b6cd8b59985049086fdb527ba4a5aecc94df4c69ea",
   "LeanFactory/Sprint/MinTopTop.lean": "cb1a57a37d5307bdb225de94a728a6cfac333d232cd66ca256e3355c2672a58a",
-  "LeanFactory.lean": "6406828e07a6324ab833960ed2b9bcda0b09dd2c8c79f37791accfdea8150669",
-  "lakefile.toml": "070f8159ddd80846bc1decc1d79c0270e6d2f47ef7a91d5bf39827254238cbb6",
   "lake-manifest.json": "581d27bdd39a23fecd232dc8e52ebd31530d5b775e305e75583c1bc4d2ba4510",
+  "lakefile.toml": "070f8159ddd80846bc1decc1d79c0270e6d2f47ef7a91d5bf39827254238cbb6",
   "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
 }
