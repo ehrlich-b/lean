@@ -53,3 +53,4 @@ import LeanFactory.Month.Matrix.SumVecMulRowStochastic
 import LeanFactory.Month.DeterministicMemColStochastic
 import LeanFactory.Month.ClassicalDiagonalChannelState
 import LeanFactory.Month.UnitaryConjTraceAdjoint
+import LeanFactory.Month.DeterministicMulVecBasisFun

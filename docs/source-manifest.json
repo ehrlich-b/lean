@@ -1,5 +1,5 @@
 {
-  "LeanFactory.lean": "f3a180caadd0b1ef310a9192e8d1563fffd2bdfb4d0909d3a923731cec59e1a5",
+  "LeanFactory.lean": "74fe4b4dbec0979f36efc9f2a4582cb9fedea7427b4df9e068a64664deeb0e83",
   "LeanFactory/Batch/MaxEquiv.lean": "01f71876228b28003b34a92cdbf47c4d7c72b925d8651cc565cb084ca38d740b",
   "LeanFactory/Batch/MinBot.lean": "63074ffc17208471b554f8f272f5884eca3682900b78f94f91f1c2356e890d58",
   "LeanFactory/Batch/MinHull.lean": "4fd03de3c37256ebb499644244db21b52d2f74c833d7f0b8bc50fff2c80e7896",
@@ -13,6 +13,7 @@
   "LeanFactory/Month/BasisChangeNonnegativeMatrix.lean": "c4bc1ff3dc46c068483c49f3ba2fac8c93a77e119c05c0ecc2c84c33380b5bc6",
   "LeanFactory/Month/ClassicalDiagonalChannelState.lean": "f0d5a8096de0c87c0b85aba42f7b8c8fa232042bc1ad060f7aac717868703e55",
   "LeanFactory/Month/DeterministicMemColStochastic.lean": "2958b74d17b10c2da3b1c28d40d18310cd30fdd1e604803d3381b6afd32509d7",
+  "LeanFactory/Month/DeterministicMulVecBasisFun.lean": "311ba72c8cb85c0f8f395e4983d5dec626b3311ebc79b81cdf919b243e575309",
   "LeanFactory/Month/DualBasisTensorProduct.lean": "5c0358f92bbbed8582729965756a27d0231997718b3fa9243c18f867a7581c45",
   "LeanFactory/Month/DualHullDualBasis.lean": "211c1a2e31bfd716fc93964f38b6d7b9f6db8d402dcc7732cea56ba877fc7ca6",
   "LeanFactory/Month/HermitianTraceProductReal.lean": "bed4f8d69e6f27886ddedf67493eb3a589f6d1c464bd22fa97d3c10bae47de52",
