@@ -14,6 +14,13 @@ process used to turn a research result into a publication candidate.
 | Week 3 | Positive-map adjoints | Trace-preserving/unital duality with classical and matrix examples |
 | Week 4 | Consolidation | Reproducible build, consumer examples, fewer duplicate interfaces, and one coherent application |
 
+As of September 22, the integrated library has classical stochastic/simplex
+and diagonal-state results, a PSD real trace-pairing characterization, and an
+explicit unitary trace-adjoint channel. Current development focuses on
+composition and complete-positivity interoperability, and on reducing the
+remaining dependency and review backlog. These are checkpoints for library
+quality, not a theorem-count target.
+
 Before admitting new statements, search current Mathlib and related libraries.
 Existing coverage closes a task successfully. Specify real versus complex
 scalars, normalization conventions, and closure hypotheses explicitly.

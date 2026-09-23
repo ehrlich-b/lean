@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "LeanFactory/Month/UnitaryConjTraceAdjoint.lean",
+      "sha256": "c079f28cd2c41291c4f907b7260a23a492e13e886fb7e6eea33050a0346e4d94",
+      "candidate_sha256": "a7b068e86759db3a8ce7520122d0e8bec24ef6968353887f2b59fe78a1c37cdf",
+      "integration_receipt_sha256": "236dad70c200c33f328c333379f46223a0a878640d98fa05610b0459a1f73da7"
+    },
+    {
+      "path": "LeanFactory/Month/UnitaryConjChannel.lean",
+      "sha256": "670798b7167313ca55b0621dba6b92b0c86c2bbd85c75f70fb4850fdc6e3148d",
+      "candidate_sha256": "f48fb81952633cfa30d3bef3802e71d02c1f180ca6abee4a1c697f678c0fd31f",
+      "integration_receipt_sha256": "b53a498d3ec20bd2fc5857e53736081843ceb5aee838002a08fa5375b62421ee"
+    },
+    {
+      "path": "LeanFactory/Month/TracePairingPreservingUnital.lean",
+      "sha256": "766c0645f8d33152d528efa7610c9cdd2ca0edacea47a998dddfb3af868e1168",
+      "candidate_sha256": "fed7b259e38d6b89b2b76961492a19c945790a9b423a02a3033b0dd573762c52",
+      "integration_receipt_sha256": "a187b07d18a50e3bb1f650247b9893f8d4fdfeee9eee4cfb14bd1fce66142266"
+    },
+    {
+      "path": "LeanFactory/Month/ClassicalDiagonalChannelState.lean",
+      "sha256": "f0d5a8096de0c87c0b85aba42f7b8c8fa232042bc1ad060f7aac717868703e55",
+      "candidate_sha256": "5df9361e9321f57662ab7e413efef7811cd34020c28f2e50de760ca4e372b92c",
+      "integration_receipt_sha256": "67378e8927da835cec15fcd82110c06e46500ddba98ce89bace4ef30a41777b8"
+    },
+    {
+      "path": "LeanFactory/Month/MulVecMemStdSimplexOfMemColStochastic.lean",
+      "sha256": "f5d57dfdd55370b61a3a17444f46a121e3d7ae5eb9f982e2a0c9003bac332c0e",
+      "candidate_sha256": "b773ba79ba23ff1059f1331ad22b80506e6b2f6df8f93f8906ebd4d2f75db536",
+      "integration_receipt_sha256": "6bc84a116f82c602722bff99c166be64528ec6ed8ca3f328734c194c597ba169"
+    },
+    {
+      "path": "LeanFactory/Month/DeterministicMemColStochastic.lean",
+      "sha256": "2958b74d17b10c2da3b1c28d40d18310cd30fdd1e604803d3381b6afd32509d7",
+      "candidate_sha256": "50199dca66decb77cf27dce7ff4374cc568162438773fa7c934d159f6323d177",
+      "integration_receipt_sha256": "74fe5143602e42f14094adc81ba7a3e87f84a0012b848a3e10fe4ac5571994ac"
+    },
+    {
+      "path": "LeanFactory/Month/Matrix/SumVecMulRowStochastic.lean",
+      "sha256": "7137ed5aad7516c40772d59c73e3f018ba2b0d6d070b16ed2e96a56054321d7a",
+      "candidate_sha256": "c3c6729f59aa2b455dc1ad3e5f4e21d1ae0df9090703aeace006869167a1fba6",
+      "integration_receipt_sha256": "70898933e58ca4f5a6c2cd1162aa02bc02198d998add39b9628478529c4e3d97"
+    },
+    {
+      "path": "LeanFactory/Month/TwoStateStochasticExample.lean",
+      "sha256": "8f29499b2323b7d350f5033b4c49fa903a883d1c6e176e438c7c6c045a1c0c55",
+      "candidate_sha256": "1e1280c24a8121a4e41040c879097e95ed843489e8bff40c24552c8b22b9b378",
+      "integration_receipt_sha256": "fd5d226600ddde163d25bcd7f14a7de9549bc8457b0df2002d8342506e37c400"
+    },
+    {
+      "path": "LeanFactory/Month/KrausMapTracePreserving.lean",
+      "sha256": "2de7ee334e932ba59e0016af75d5d468b035a7b9b4e616feea7af50393d97ab6",
+      "candidate_sha256": "3e25200755da4a1bfee321420e6d89cdd92bc949f8be42b9910c0673cc3dd742",
+      "integration_receipt_sha256": "f3afa5eba83d93484d1084a7a9185aff164ac58f9d18d63c8645b96c8a160571"
+    },
+    {
+      "path": "LeanFactory/Month/KrausTraceNormalization.lean",
+      "sha256": "642fbf2a0096edbf3513d4581e6d3ce0ddea37e80bc7789956462f0161745569",
+      "candidate_sha256": "f88706b6434b69851fbe56d1952d839770d6caab3e8ca2d0a41bf948a2d9e464",
+      "integration_receipt_sha256": "bda0445bf4a27b855c8c8a6c7f232c5f9e1d3c6046de8bf236fe1665d8b42257"
+    },
+    {
+      "path": "LeanFactory/Month/HermitianTraceProductReal.lean",
+      "sha256": "bed4f8d69e6f27886ddedf67493eb3a589f6d1c464bd22fa97d3c10bae47de52",
+      "candidate_sha256": "72db14ecce56b73647f59518c27aa8d35645b8c7292f8db8d4345811e96f2541",
+      "integration_receipt_sha256": "8a43cc0f9a669f9ba065286cfd5ad53d9af67572b484a52d897d961c3da1b8cc"
+    },
+    {
+      "path": "LeanFactory/Month/PositiveOrthantMinMaxConsumer.lean",
+      "sha256": "295ee1cb51ed5cd2c244e99b7e8b4696eda112c3de4db1ec2721e35095db7c6a",
+      "candidate_sha256": "bbea31301df8f38c49f2ada739fb0d14cb5d6add35633a37d64e2001ce13ee16",
+      "integration_receipt_sha256": "845fb6554a1ee782cda10117ed2f86be11f7b59eee41759e0832af8489b7a291"
+    },
+    {
+      "path": "LeanFactory/Month/PositiveOrthantGenerating.lean",
+      "sha256": "dea1781039c71347e863310e0649d29b19cddff380fa9f89e3813e7472c6551b",
+      "candidate_sha256": "eb8924d187774623f12a1b47bcb43bca2c3cd1b5bd1c1a5e165783b986913800",
+      "integration_receipt_sha256": "fe0d1dbbd8b5d4a09681356e5d7ee123084e76dc6db08fd932130209d094a292"
+    },
+    {
+      "path": "LeanFactory/Month/OrthantBasisConeExample.lean",
+      "sha256": "671cc55cd589cd2ab2134ad90efa694061f09247498d127c8c9b032f4d04179d",
+      "candidate_sha256": "794d39d7131dddbeab36582f4f8c6bbbfa9a08b0fd1a166ec1445664790a5b91",
+      "integration_receipt_sha256": "08ec637098363c6d056333c2cb56be1be3b7516f8f1237cc6148d58fd11d7b18"
+    },
+    {
+      "path": "LeanFactory/Month/TraceAdjointPositivity.lean",
+      "sha256": "1482424e864f1afca2650416eef7e8612e10d7d1189b3e8d1d5ea89f5173f457",
+      "candidate_sha256": "9a2cc3891e3ccbf2d00cf5d405bca9b7c272694962d362f7d6c082a2d5cb45ef",
+      "integration_receipt_sha256": "3d3f75ff06c74b34179cc58d91923bc3313f5c3f692a0a41764a87a6d2d649ea"
+    },
+    {
+      "path": "LeanFactory/Month/TraceMulNonnegOfPosSemidef.lean",
+      "sha256": "d640b821ea1d84df11c61b959dd41ba6fe980cbd048e35dc886f225aac46affe",
+      "candidate_sha256": "63ce7ca096ad9836ff6be89b1697ee408e6a054e792a664a7708a4645db8e7c3",
+      "integration_receipt_sha256": "9d04554f4cc0c748b632876220fdc24849225bccc49edb00efb807fd74cc8f2f"
+    },
+    {
+      "path": "LeanFactory/Month/PosSemidefIffForallPosSemidefTraceReNonneg.lean",
+      "sha256": "ad3828775d8a270f101ea3fd0499a94a5815c1c61b0ff5a5f496f3b68abdc06e",
+      "candidate_sha256": "00445c97c0305fae3dbf7ba9007342bc6ac71dee5185589e17f32130682873b3",
+      "integration_receipt_sha256": "6ed55e12058e6470421f47d4f6bf0a00b0a17c3d6a25fb3d1834139ec24c985a"
+    },
+    {
+      "path": "LeanFactory/Month/PosSemidefIffTraceRankOneNonneg.lean",
+      "sha256": "bbce9cc23892c6dd2356da109f78159e0b1d8056e328c9c2128fe25bc6dc970e",
+      "candidate_sha256": "46b1ee92ebcdad5c03437f374f2979024ff870373e9cf5739f17b299111d7927",
+      "integration_receipt_sha256": "6987d359aa45d270270279ae5fd8b55deeb18a446415b31b173791e99a04f3bc"
+    },
+    {
+      "path": "LeanFactory/Month/BasisChangeNonnegativeMatrix.lean",
+      "sha256": "c4bc1ff3dc46c068483c49f3ba2fac8c93a77e119c05c0ecc2c84c33380b5bc6",
+      "candidate_sha256": "fd7c313c83ff742ac292445a9a11b4f454ce27c7f8bc243628d4f5c46cadc649",
+      "integration_receipt_sha256": "9fbcc3c1a88550de204613c7bc888fdb2ed79d2869a30e60b4574bf599bea072"
+    },
+    {
+      "path": "LeanFactory/Month/DualHullDualBasis.lean",
+      "sha256": "211c1a2e31bfd716fc93964f38b6d7b9f6db8d402dcc7732cea56ba877fc7ca6",
+      "candidate_sha256": "bcfa0a9f2e363521aec1ed8d29153d6bc96da853aa64741be56f70ee204cbca3",
+      "integration_receipt_sha256": "57bcaeb92da119e2dae49782e0bde4dba93430acd0b4fe92c7058edee1a8fe55"
+    },
+    {
+      "path": "LeanFactory/Month/DualBasisTensorProduct.lean",
+      "sha256": "5c0358f92bbbed8582729965756a27d0231997718b3fa9243c18f867a7581c45",
+      "candidate_sha256": "a2da8942d51c4c1ef63cd90175ddefff1129265d0fe50a507d5bbf75dfe86af9",
+      "integration_receipt_sha256": "77496454eb489f17e5cde876ab11d08dac7112f0a810df2b59c001e6beb7fd1b"
+    }
+  ],
+  "scope": "private integration evidence binding; public CI must independently pass"
+}
