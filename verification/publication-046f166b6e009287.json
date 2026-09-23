@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "LeanFactory/Month/UnitaryConjCompletelyPositive.lean",
+      "sha256": "8403e7570a6e84c93e5062440db991bb1d44bccbcff9cf7ce59a4493ea6701dc",
+      "candidate_sha256": "16513d68074d0ccaac581891ec73776c1eb347339b342e6b30340f55c122f9bc",
+      "integration_receipt_sha256": "3830121f8d92008055c35678a69c2f732b3d60c927d68ba8eb82892ae39d3042"
+    }
+  ],
+  "scope": "private integration evidence binding; public CI must independently pass"
+}

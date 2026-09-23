@@ -1,5 +1,5 @@
 {
-  "LeanFactory.lean": "74fe4b4dbec0979f36efc9f2a4582cb9fedea7427b4df9e068a64664deeb0e83",
+  "LeanFactory.lean": "0285422603398cb3367eabef80fc17458c5511ecd44ab25551239ed3f929e0dd",
   "LeanFactory/Batch/MaxEquiv.lean": "01f71876228b28003b34a92cdbf47c4d7c72b925d8651cc565cb084ca38d740b",
   "LeanFactory/Batch/MinBot.lean": "63074ffc17208471b554f8f272f5884eca3682900b78f94f91f1c2356e890d58",
   "LeanFactory/Batch/MinHull.lean": "4fd03de3c37256ebb499644244db21b52d2f74c833d7f0b8bc50fff2c80e7896",
@@ -32,6 +32,7 @@
   "LeanFactory/Month/TracePairingPreservingUnital.lean": "766c0645f8d33152d528efa7610c9cdd2ca0edacea47a998dddfb3af868e1168",
   "LeanFactory/Month/TwoStateStochasticExample.lean": "8f29499b2323b7d350f5033b4c49fa903a883d1c6e176e438c7c6c045a1c0c55",
   "LeanFactory/Month/UnitaryConjChannel.lean": "670798b7167313ca55b0621dba6b92b0c86c2bbd85c75f70fb4850fdc6e3148d",
+  "LeanFactory/Month/UnitaryConjCompletelyPositive.lean": "8403e7570a6e84c93e5062440db991bb1d44bccbcff9cf7ce59a4493ea6701dc",
   "LeanFactory/Month/UnitaryConjTraceAdjoint.lean": "c079f28cd2c41291c4f907b7260a23a492e13e886fb7e6eea33050a0346e4d94",
   "LeanFactory/Overnight/DualTopEval.lean": "469a2bd2622e721ae7dbefdfedcf8c723a2beaf89a2a1755b606a9b45554e299",
   "LeanFactory/Overnight/HullSingletonSimplicial.lean": "2bdfa27207c833ba8b74ed4a542d1cde23f6fcf4b3e39afbed91f62f89a05e47",

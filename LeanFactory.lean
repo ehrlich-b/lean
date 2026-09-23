@@ -54,3 +54,4 @@ import LeanFactory.Month.DeterministicMemColStochastic
 import LeanFactory.Month.ClassicalDiagonalChannelState
 import LeanFactory.Month.UnitaryConjTraceAdjoint
 import LeanFactory.Month.DeterministicMulVecBasisFun
+import LeanFactory.Month.UnitaryConjCompletelyPositive
