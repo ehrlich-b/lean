@@ -9,10 +9,10 @@ This is an early experiment, and I expect to learn from mistakes and feedback.
 
 ## What is here
 
-The initial library contains 32 supporting theorems built on Mathlib's existing
-cone definitions. They cover linear-map transport, generators and joins of
-minimal tensor cones, scalar units, algebraic duality, and simplicial cones and
-basis coordinates. They are supporting API, not claims of new mathematics.
+The library now includes cone and tensor-product interfaces, finite classical
+stochastic maps, Hermitian positive-semidefinite matrix results, and explicit
+trace-adjoint channels. Theorems are standard mathematics formalized as
+reusable APIs, not claims of mathematical novelty.
 
 For example, `PointedCone.minTensorProduct_map_le_iff` reduces positivity of a
 linear map out of a minimal tensor cone to checking elementary tensors.
@@ -26,20 +26,20 @@ import LeanFactory
 The `Batch`, `Sprint`, and `Overnight` directory names reflect the early
 experiments; the module organization and API are not yet stable.
 
-## Initial targets
+## Current mathematical threads
 
-1. **Classical ordered composites:** concrete nonnegative orthants, tensor
-   coordinates, and positive maps represented by nonnegative matrices.
-2. **PSD matrices and trace duality:** connect Hermitian positive-semidefinite
-   matrices to existing cone and real trace-pairing interfaces.
-3. **Positive maps and channel adjoints:** positivity transport and the relation
-   between trace preservation and a unital adjoint, with classical and quantum
-   examples.
+1. **Classical ordered systems:** orthant cone examples, stochastic maps on
+   Mathlib's standard simplex, and diagonal PSD matrices of trace one.
+2. **PSD matrices:** rank-one and real trace-pairing tests for positivity, plus
+   transport of positivity through a trace-adjoint pair.
+3. **Channels:** an explicit trace-pairing adjoint convention, the equivalence
+   between trace preservation and adjoint unitality, and a unitary-conjugation
+   instance.
 
-These are targets, not completed features. Existing formalizations should be
-reused wherever possible. A useful outcome would be a few coherent interfaces
-with compiling applications, rather than a large collection of isolated lemmas.
-See the [roadmap](docs/ROADMAP.md).
+The private development repository also checks concrete application callers;
+the public import root exports only integrated theorem modules. These interfaces
+remain under review for duplication, naming, and abstraction quality. See the
+[roadmap](docs/ROADMAP.md).
 
 ## Build
 
@@ -49,7 +49,7 @@ Install [elan](https://github.com/leanprover/elan), then run:
 lake build LeanFactory
 ```
 
-The toolchain and every dependency revision are pinned. This initial snapshot
+The toolchain and every dependency revision are pinned. This source
 uses Lean 4.33.1 and Mathlib commit
 `db584cd6d46c92f209a44c0f1c829460d327499d`. A compatible dependency cache may not
 be available for this toolchain combination, so the first build can be costly.
